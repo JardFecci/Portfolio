@@ -1,0 +1,25 @@
+html{
+	background-color: bisque;
+	color: maroon;
+	font-weight: normal;
+	font-size: 20px;
+}
+header{
+	background-color: #DB7600;
+	text-align: center;
+	margin: 20px;
+	
+}
+ol{
+	list-style: none;
+}
+h2{
+	background-color: #FFA133;
+}
+ul{
+	list-style: circle;
+}
+div{
+	background-color: #FFC37D;
+	margin: 20px;
+}

@@ -1,0 +1,10 @@
+<nav>
+	<div style="background-color:lightgrey; border-style:groove; thick; border-radius: 25px;">
+	<ul style="list-style-type: none;">
+        <li class="nav-item active"> <a class="nav-link" href="../Homepage.html">Home</a></li>
+        <li class="nav-item"> <a class="nav-link" href="../javascriptExamples.html">Javascript Examples</a></li>
+		<li class="nav-item"> <a class="nav-link" href="../resumePage.html">Resume</a></li>
+		<li class="nav-item"> <a class="nav-link" href="../contactPage.html">Contact</a></li>      
+	</ul>
+    </div>
+  </nav>

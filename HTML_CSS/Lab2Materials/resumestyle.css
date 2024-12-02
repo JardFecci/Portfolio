@@ -1,0 +1,20 @@
+html {
+    color: black;
+    background-color: lightblue;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+h1 {
+    text-align: left;
+    color:blue;
+    background-color: lightskyblue;
+}
+h2 {
+    text-align: left;
+    color:rgb(0, 128, 255);
+    background-color: lightskyblue;
+}
+div{
+    background-color: rgb(204, 242, 255);
+}

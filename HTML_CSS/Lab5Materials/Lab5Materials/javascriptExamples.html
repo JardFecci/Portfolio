@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jared Fetcho Javascript Examples</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	
+  </head>
+  <body>
+  	<!-- body code goes here -->
+	
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+  <script src="js/bootstrap-4.4.1.js"></script><!-- #BeginLibraryItem "/Library/mainNavBar.lbi" --><nav>
+	<div style="background-color:lightgrey; border-style:groove; thick; border-radius: 25px;">
+	<ul style="list-style-type: none;">
+        <li class="nav-item active"> <a class="nav-link" href="Homepage.html">Home</a></li>
+        <li class="nav-item"> <a class="nav-link" href="javascriptExamples.html">Javascript Examples</a></li>
+		<li class="nav-item"> <a class="nav-link" href="resumePage.html">Resume</a></li>
+		<li class="nav-item"> <a class="nav-link" href="contactPage.html">Contact</a></li>      
+	</ul>
+    </div>
+  </nav><!-- #EndLibraryItem --><p style="padding-left: 20px;">These are some examples of Javascript programming I have worked on for one of my classes.</p>
+	  
+	  <div style="background-color:grey; color:white; padding-left: 20px; padding-bottom: 10px;">
+        <h1>Sum of Three Numbers</h1>
+        <h2>Salutations, I am Mr. Math!</h2>
+        <h2>Input three numbers, and I will add them!</h2>
+        <form>
+            <label for="num1">Number 1:</label>
+            <input type="number" id="num1" name="num1">
+            <br>
+            <br>
+            <label for="num2">Number 2:</label>
+            <input type="number" id="num2" name="num2">
+            <br>
+            <br>
+            <label for="num3">Number 3:</label>
+            <input type="number" id="num3" name="num3">
+            <br>
+            <br>
+            <input type="button" value="Calculate!" onclick="calculateSum()">
+            <label for="result">Your sum is:</label>
+            <input type="text" id="result" name="result" readonly>
+        </form>
+        <script>
+            function calculateSum() {
+                let num1 = parseFloat(document.getElementById("num1").value);
+                let num2 = parseFloat(document.getElementById("num2").value);
+                let num3 = parseFloat(document.getElementById("num3").value);
+                let sum = num1 + num2 + num3;
+                document.getElementById("result").value = sum;
+            }
+        </script>
+    </div>
+    <br>
+  <div style="background-color: black; color: aqua; border-style: solid; border-width: thick; padding-bottom: 30px; border-radius: 25px;">
+        <h1 style="margin-left: 50px;">TRON LIGHTCYCLE POWER RUN</h1>
+        <h2 style="margin-left: 50px;">Hold up, there!</h2>
+        <p style="margin-left: 50px;">Before you can access the <strong>TRON LIGHTCYCLE POWER RUN</strong>, we need to make sure you're tall enough to ride!</p>
+      <form>
+            <label for="height" style="margin-left: 50px;">Enter your height (in inches):</label>
+            <input type="number" id="height" name="height">
+            <br>
+            <br>
+            <input type="button" value="Check my height!" onclick="checkHeight()" style="margin-left: 50px;">
+            <br>
+            <br>
+            <label for="result" style="margin-left: 50px;">Result:</label>
+            <input type="text" id="message" name="message" readonly size="40px">
+    </form>
+        <script>
+            function checkHeight() {
+                let height = parseInt(document.getElementById("height").value);
+                let message = "";
+
+                if (height >= 48)
+                {
+                    message = "Congrats! You're tall enough to ride!";
+                }
+                else 
+                {
+                    message = "Sorry... You're not tall enough to ride.";
+                }
+                document.getElementById("message").value = message;
+            }
+        </script>
+    </div>
+  <!-- #BeginLibraryItem "/Library/disclaimer.lbi" --><sub>(C) Jared Fetcho 2023</sub><!-- #EndLibraryItem --><br>
+	  
+	</body>
+</html>

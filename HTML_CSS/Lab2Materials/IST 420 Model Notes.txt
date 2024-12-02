@@ -1,0 +1,8 @@
+Domain notes:
+Change schedule to class.
+Class
+{
+number
+}
+Student Class Entitiy
+No room, but it could be tied to schedule.

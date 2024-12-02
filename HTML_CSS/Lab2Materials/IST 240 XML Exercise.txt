@@ -1,0 +1,12 @@
+XML Validaton Exercise
+
+1. The values for  "name language" are listed as    English and Russian, it should instead be       English and Latin. (Page 4)
+2. The "threat" value has three instances,    whereas only two is allowed. (Page 4)
+3. The "subspecies" tag for the Balica is    capitalized upon opening, and lowercase upon    closing. (Page 4)
+4. The "endangered species" tag is capitalized    upon opening, and lowercase upon closing.    (Page 6)
+5. The "name" tag for P. t. sondaica is    capitalized upon opening, and lowercase upon    closing. (Page 4)
+6. The "picture" tag should only accept    integers.(Page 5)
+7. The "population" tag cannot accept negative    numbers. (Page 4)
+8.
+9.
+10.

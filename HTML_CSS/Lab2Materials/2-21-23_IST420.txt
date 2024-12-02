@@ -1,0 +1,15 @@
+Processes:
+Insurance Payments
+Scheduling (Making, cancelling, rescheduling)
+Medical Procedures
+New Patients
+Reports
+
+Data Stored:
+Patient Information/Records
+Costs/Billing
+Legal Records?
+Appointments/Schedule
+Providers
+Claims
+Insurance Company

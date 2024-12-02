@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Resume: Jared Michael Cashuric Fetcho </title>
+		<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+        <link href="resumestyle.css" rel="stylesheet">
+	</head>
+	<body>
+		<!--Intro-->
+		<div class="intro">
+			<div class="nameheading">Jared Michael Cashuric Fetcho</div>
+		</div>
+		<!--Contact Information-->
+		<div class="contactinfo">
+			<div class="icon">
+				<div class="fas fa-map-signs"></div>
+			</div>
+			<div class="data">
+				339 Atlantic Street, Jessup PA, 18434 
+			</div>
+			<div class="icon">
+				<div class="fas fa-mobile-alt"></div>
+			</div>
+			<div class="data">
+				(570) 878-7555
+			</div>
+			<div class="icon">
+				<div class="fas fa-envelope"></div>
+			</div>
+			<div class="data">
+				jaredfetcho@gmail.com
+			</div>
+		</div>
+<!--Experience/Education-->
+<div class="subheading">Education</div>
+<div class="edlist">
+<ul>
+<li>
+<div class="school">Penn State University</div> 
+<div class="degree">
+<div class="degree">Degree Title</div> 
+<div class ="graddate">Your  Expected Graduation Date</div>
+</div>
+</li>
+<li>
+<div class="school">Job 2 date</div> 
+<div class="degree">
+<div class="degree">Your Minor</div> 
+<div class ="graddate">Your Expected Graduation Date</div>
+</div>
+</li>
+</ul>
+</div>
+		<!--Skills Section-->
+		<div class="subheading">Computer Skills</div>
+		<div class="skills">
+			<ul>
+				<li>
+					<div class="skill_name">
+						Skill 1
+					</div>
+				</li>
+				<li>
+					<div class="skill_name">
+						Skill 2
+					</div>
+				</li>
+				<li>
+					<div class="skill_name">
+						Skill 3
+					</div>
+				</li>					
+			</ul>
+		</div>
+<!--Project Section-->
+<div class="subheading">Projects</div>
+<div class="projects">
+<ul>
+<li>
+<div class="project_name">
+Project 1
+</div>
+<div class="project_descr">
+<span>Project Description</span>
+</div>
+</li>
+<li>
+<div class="project_name">
+Project 2
+</div>
+<div class="project_descr">
+<span>Project Description</span>
+</div>
+</li>
+<li>
+<div class="project_name">
+Project 3
+</div>
+<div class="project_descr">
+<span>Project Description</span>
+</div>
+</li>					
+</ul>
+</div>
+<!--Social-->
+<div class="subheading">Social</div>
+<div class="social">
+<a href="facebooklink" target="_blank">
+<div class = "icon">
+<div class="fab fa-facebook-square">Facebook</div>
+</div>
+</a>
+ <a href="twitterlink" target="_blank">
+ <div class = "icon">
+ <span style="padding-left:10px;"></span>
+ <div class="fab fa-twitter-square">Twitter</div>
+ </div>
+ </a>
+ <a href="linkedInlink" target="_blank">
+ <div class="icon">
+ <span style="padding-left:10px;"></span>
+ <div class="fab fa-linkedin">LinkedIn</div>
+</div>
+ </a>
+<a href="githublink" target="_blank">
+<div class = "icon">
+<span style="padding-left:10px;"></span>
+  <div class="fab fa-github">Github</div>
+</div>
+ </a>
+</div>
+
+	</body>
+</html>

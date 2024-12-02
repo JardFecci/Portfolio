@@ -1,0 +1,9 @@
+Select
+	dept.deptid,
+	Lname,
+	deptname
+From
+	employee,
+	dept
+Where
+	dept.deptid=employee.deptid;
