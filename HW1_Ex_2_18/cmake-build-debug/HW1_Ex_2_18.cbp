@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="HW1_Ex_2_18"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="V:/Downloads/HW1_Project_Files/HW1_Project_Files/HW1_Ex_2_18/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;V:/Downloads/HW1_Project_Files/HW1_Project_Files/HW1_Ex_2_18/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;V:/Downloads/HW1_Project_Files/HW1_Project_Files/HW1_Ex_2_18/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;V:/Downloads/HW1_Project_Files/HW1_Project_Files/HW1_Ex_2_18/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;V:/Downloads/HW1_Project_Files/HW1_Project_Files/HW1_Ex_2_18/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HW1_Ex_2_18">
+				<Option output="V:/Downloads/HW1_Project_Files/HW1_Project_Files/HW1_Ex_2_18/cmake-build-debug/HW1_Ex_2_18.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="V:/Downloads/HW1_Project_Files/HW1_Project_Files/HW1_Ex_2_18/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;V:/Downloads/HW1_Project_Files/HW1_Project_Files/HW1_Ex_2_18/cmake-build-debug/Makefile&quot;  VERBOSE=1 HW1_Ex_2_18"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;V:/Downloads/HW1_Project_Files/HW1_Project_Files/HW1_Ex_2_18/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;V:/Downloads/HW1_Project_Files/HW1_Project_Files/HW1_Ex_2_18/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;V:/Downloads/HW1_Project_Files/HW1_Project_Files/HW1_Ex_2_18/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HW1_Ex_2_18/fast">
+				<Option output="V:/Downloads/HW1_Project_Files/HW1_Project_Files/HW1_Ex_2_18/cmake-build-debug/HW1_Ex_2_18.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="V:/Downloads/HW1_Project_Files/HW1_Project_Files/HW1_Ex_2_18/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;V:/Downloads/HW1_Project_Files/HW1_Project_Files/HW1_Ex_2_18/cmake-build-debug/Makefile&quot;  VERBOSE=1 HW1_Ex_2_18/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;V:/Downloads/HW1_Project_Files/HW1_Project_Files/HW1_Ex_2_18/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;V:/Downloads/HW1_Project_Files/HW1_Project_Files/HW1_Ex_2_18/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;V:/Downloads/HW1_Project_Files/HW1_Project_Files/HW1_Ex_2_18/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="V:/Downloads/HW1_Project_Files/HW1_Project_Files/HW1_Ex_2_18/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;V:/Downloads/HW1_Project_Files/HW1_Project_Files/HW1_Ex_2_18/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;V:/Downloads/HW1_Project_Files/HW1_Project_Files/HW1_Ex_2_18/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;V:/Downloads/HW1_Project_Files/HW1_Project_Files/HW1_Ex_2_18/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;V:/Downloads/HW1_Project_Files/HW1_Project_Files/HW1_Ex_2_18/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="V:/Downloads/HW1_Project_Files/HW1_Project_Files/HW1_Ex_2_18/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;V:/Downloads/HW1_Project_Files/HW1_Project_Files/HW1_Ex_2_18/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;V:/Downloads/HW1_Project_Files/HW1_Project_Files/HW1_Ex_2_18/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;V:/Downloads/HW1_Project_Files/HW1_Project_Files/HW1_Ex_2_18/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;V:/Downloads/HW1_Project_Files/HW1_Project_Files/HW1_Ex_2_18/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="V:/Downloads/HW1_Project_Files/HW1_Project_Files/HW1_Ex_2_18/Exercise_2_18.cpp">
+			<Option target="HW1_Ex_2_18"/>
+		</Unit>
+		<Unit filename="V:/Downloads/HW1_Project_Files/HW1_Project_Files/HW1_Ex_2_18/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

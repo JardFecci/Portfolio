@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+V:/Downloads/HW1_Project_Files/HW1_Project_Files/HW1_Ex_2_14/Exercise_2_14.cpp
+iostream
+-
+
